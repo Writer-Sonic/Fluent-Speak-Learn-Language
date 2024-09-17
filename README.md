@@ -21,6 +21,9 @@ The following is collected and processed:
 ### 1.3 Device Information
 The following is collected:
 - Device ID
+- MAC address
+- Device type
+- Operating system version
 
 ### 1.4 Usage Data
 Information is collected about:
@@ -55,23 +58,37 @@ The information collected is used to:
 - Crash data
 - Performance data
 
-## 4. Protection of Information
+## 4. Data Safety and Device Identifiers
+
+We are committed to protecting your privacy and ensuring the safety of your data. In compliance with app store data safety requirements, we want to be fully transparent about our data collection practices, particularly regarding device identifiers:
+
+- Firebase Installation ID: Our app uses the Firebase SDK, which automatically generates and collects a Firebase Installation ID. This ID is used solely for app functionality, such as ensuring proper operation of Firebase services and providing you with a consistent experience across sessions.
+
+- Sentry Data Collection: We use Sentry for error tracking and performance monitoring. Sentry collects certain device information including MAC address, device type, operating system version, and other technical details necessary for diagnosing issues. This information is used solely for the purpose of improving app performance, identifying and fixing errors, and enhancing user experience.
+
+- Data Protection: All collected data, including Sentry data, is encrypted and securely stored. Access is strictly limited to authorized personnel for the purposes of app improvement and user support.
+
+- No Advertising: We do not use any advertising services in our app, and we do not use the collected data for advertising purposes.
+
+We are committed to keeping our Data Safety form in app stores accurate and up-to-date. If you have any questions about our data collection practices or how we use device identifiers, please contact us using the information provided in the "Contact Us" section.
+
+## 5. Protection of Information
 
 Industry-standard security measures are implemented to protect your personal information, including:
 - SSL encryption for data transmission
 - Secure storage of personal information
 - Regular security audits and updates
 
-## 5. Disclosure of Information
+## 6. Disclosure of Information
 
 Your personal information is not shared with third parties except:
 - As required by law
 - As necessary to provide the services
 - With trusted partners who assist in operating the service (subject to confidentiality agreements)
 
-It's important to note that Fluent: Speak & Learn Language is developed and maintained by a solo developer. This means that no company can dictate how your data is handled, and your privacy is a top priority. However, for the app to function properly, some data must be sent to third-party SDKs like Firebase.
+It's important to note that Fluent: Speak & Learn Language is developed and maintained by a solo developer. This means that no company can dictate how your data is handled, and your privacy is a top priority. However, for the app to function properly, some data must be sent to third-party SDKs like Firebase and Sentry.
 
-## 6. Your Rights
+## 7. Your Rights
 
 You have the right to:
 - Access your personal information
@@ -82,19 +99,19 @@ You have the right to:
 
 To exercise these rights, please contact the developer using the information provided in the "Contact Us" section.
 
-## 7. Cookies and Similar Technologies
+## 8. Cookies and Similar Technologies
 
 Cookies and similar technologies are used to collect information about your use of the service. You may disable cookies in your browser settings, but this may affect the functionality of the service.
 
-## 8. Children's Privacy
+## 9. Children's Privacy
 
 This service is not intended for children under the age of 13. Personal information is not knowingly collected from children under 13. If you are a parent or guardian and believe information may have been collected about a child, please contact the developer.
 
-## 9. Changes to This Privacy Policy
+## 10. Changes to This Privacy Policy
 
 This privacy policy may be updated from time to time. You will be notified of any changes by the posting of the new privacy policy on this page and updating the "Last Updated" date. You are advised to review this privacy policy periodically for any changes.
 
-## 10. Contact Us
+## 11. Contact Us
 
 If you have any questions or concerns about this privacy policy or the use of your personal information, please contact the developer through the app:
 
@@ -104,17 +121,19 @@ If you have any questions or concerns about this privacy policy or the use of yo
 
 The developer will assist you with any privacy-related inquiries or requests.
 
-## 11. Third-Party Services
+## 12. Third-Party Services
 
-The following third-party service is used in the app:
+The following third-party services are used in the app:
 
 - Firebase SDK: Firebase, a development platform provided by Google, is used for various functionalities including analytics, authentication, and database services. Firebase collects and processes certain data as described in the Google Privacy Policy (https://policies.google.com/privacy) and the Firebase Privacy and Security documentation (https://firebase.google.com/support/privacy).
 
-## 12. Consent
+- Sentry: We use Sentry for error tracking and performance monitoring. Sentry collects certain device information including MAC address, device type, operating system version, and other technical details necessary for diagnosing issues. This information is used solely for the purpose of improving app performance, identifying and fixing errors, and enhancing user experience.
+
+## 13. Consent
 
 By using this service, you consent to this privacy policy and agree to its terms.
 
-## 13. Data Retention and Deletion
+## 14. Data Retention and Deletion
 
 Retention of your personal information and user data is limited to one year from your last login. This retention period allows for the provision of continuous service and maintenance of relevant information for your account.
 
@@ -131,7 +150,7 @@ Additionally, an automatic deletion process is in place. If your account shows n
 
 Please note that some information may be retained for legal or regulatory purposes, as required by applicable laws, even after automatic deletion or user-requested deletion.
 
-## 14. Sign in with Apple
+## 15. Sign in with Apple
 
 Fluent: Speak & Learn Language offers "Sign in with Apple" as an authentication option. This feature provides an additional layer of privacy and security for users. When you choose to use Sign in with Apple:
 
@@ -150,4 +169,4 @@ If you choose to stop using Sign in with Apple with this app:
 
 The app developer respects your choice to use Sign in with Apple and your decisions regarding data sharing. The masked email feature, if you choose to use it, allows you to maintain a higher level of privacy while still enabling necessary communication about your account and the service.
 
-Last Updated: September 11, 2024
+Last Updated: September 17, 2024
